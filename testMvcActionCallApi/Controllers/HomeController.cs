@@ -15,7 +15,7 @@ namespace testMvcActionCallApi.Controllers
         {
             List<Product> product = new List<Product>();
 
-            string apiUrl = "http://localhost:57797/api/Product/Get";
+            string apiUrl = "http://localhost:57797/api/Test/Get";
 
             using (HttpClient client = new HttpClient())
             {
